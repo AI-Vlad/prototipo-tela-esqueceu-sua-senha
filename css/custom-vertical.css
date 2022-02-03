@@ -2,9 +2,9 @@
   color: #024135; }
 
 body {
-  background: #edeff1; }
+  background: white }
   body.page-md {
-    background: #f3f5f9; }
+    background: white }
 
 .badge {
     padding: 4px 7px 3px 7px;

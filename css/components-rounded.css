@@ -97,6 +97,8 @@ body {
     -moz-animation: mdClickEffect 0.65s linear;
     animation: mdClickEffect 0.65s linear; }
 
+
+
 @-webkit-keyframes mdClickEffect {
   0% {
     opacity: 1;
@@ -1179,12 +1181,25 @@ Responsive Utils
 
 @media (max-width: 480px) {
   .hidden-480 {
-    display: none; } }
+     display: none; } 
+
+    .footer-480{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .main-480{
+      margin-top: 95px !important
+    }
+
+  }
+  
 
 @media (max-width: 320px) {
   .hidden-320 {
     display: none; } }
 
+  
 /***
 Demo Utils
 ***/
